@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background: #f1e1d7;
+}
+
+.appWrapper {
+  max-width: 768px;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: white;
+  margin: 30px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+/* App Header */
+.appHeader {
+  margin-top: 60px;
+  padding: 0px 30px;
+  text-align: center;
+}
+.appHeader a {
+  text-decoration: none;
+}
+.appLogo h1 {
+  font-size: 2.4em;
+  color: maroon;
+}
+
+/* App Search */
+
+.appSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0px 30px;
+}
+.recipeSearch {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: maroon;
+  border-radius: 5px;
+}
+
+.searchButton {
+  padding: 10px;
+  border: none;
+  background: #f1e1d7;
+  cursor: pointer;
+}
+
+.searchButton img {
+  width: 30px;
+}
+
+.searchField {
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #e5dbce;
+}
+
+/* App main */
+.splash {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.categories {
+  padding: 0px 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.categories li {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  list-style-type: none;
+  background-color: #e3cec4;
+  color: black;
+  border-style: none;
+  display: flex;
+  cursor: pointer;
+}
+/* App footer */
+.appFooter {
+  padding: 0px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
